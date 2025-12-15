@@ -1,0 +1,15 @@
+# Existing ignores
+__pycache__
+venv
+.venv
+env
+tests
+
+# Glob-style ignores
+**/__pycache__/
+**/venv/
+**/.venv/
+tests/**/*.py
+*_test.py
+dist/**
+build/**

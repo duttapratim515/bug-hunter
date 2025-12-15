@@ -1,0 +1,6 @@
+[project]
+name = "bug-hunter"
+version = "0.1.0"
+
+[project.scripts]
+bug-hunter = "bug_hunter.cli:main"
